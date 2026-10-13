@@ -11,34 +11,33 @@
    ===================================================================== */
 
 /* Welke lijst opent standaard? (een link met ?lijst=… gaat voor) */
-const STANDAARD_LIJST = 'blok2';
+const STANDAARD_LIJST = 'les2';
 
 const WOORDENLIJSTEN = {
 
-  blok1: {
-    titel: 'Woorden blok 1',
-    woorden: [
-      { woord: 'nauwkeurig',   betekenis: 'heel precies',               tip: 'Ze tekende de kaart nauwkeurig na.' },
-      { woord: 'onmiddellijk', betekenis: 'meteen, zonder te wachten',   tip: 'Kom onmiddellijk naar binnen!' },
-      { woord: 'vermoeid',     betekenis: 'moe',                         tip: '' },
-      { woord: 'gering',       betekenis: 'klein of weinig',             tip: 'De kans op regen is gering.' },
-      { woord: 'aanzienlijk',  betekenis: 'flink groot of veel',         tip: '' },
-      { woord: 'beweren',      betekenis: 'zeggen dat iets zo is',       tip: 'Hij beweert dat hij de snelste is.' },
-      { woord: 'gezamenlijk',  betekenis: 'samen, met elkaar',           tip: '' },
-      { woord: 'zorgvuldig',   betekenis: 'heel voorzichtig en netjes',  tip: 'Ze pakte het cadeau zorgvuldig in.' },
-    ]
-  },
-
-  blok2: {
-    titel: 'Woorden blok 2',
-    woorden: [
-      { woord: 'nieuwsgierig', betekenis: 'je wilt graag iets weten of ontdekken',            tip: 'De kat keek nieuwsgierig in de doos.' },
-      { woord: 'aarzelen',     betekenis: 'twijfelen, nog niet goed weten of je iets doet',  tip: 'Hij aarzelde voordat hij in het water sprong.' },
-      { woord: 'schitteren',   betekenis: 'fel glinsteren of stralen',                       tip: 'De sterren schitteren aan de hemel.' },
-      { woord: 'ongeduldig',   betekenis: 'je kunt niet goed wachten',                       tip: '' },
-      { woord: 'verzamelen',   betekenis: 'dingen bij elkaar brengen en bewaren',            tip: 'Zij verzamelt schelpen van het strand.' },
-      { woord: 'eerlijk',      betekenis: 'je liegt niet en je speelt niet vals',            tip: '' },
-    ]
-  },
-
+  les2: {
+      titel: 'Woordenlijst les 2',
+      woorden: [
+        { woord: 'balanceren',           betekenis: 'In evenwicht proberen te blijven.', tip: '' },
+        { woord: 'beoefenen',            betekenis: 'Iets doen of uitvoeren. Als je een sport beoefent, doe je aan die sport.', tip: '' },
+        { woord: 'de conditie',          betekenis: 'Je lichamelijke toestand, hoe fit en gezond je bent.', tip: '' },
+        { woord: 'de duursport',         betekenis: 'Een sport die je lang achter elkaar doet, zoals lang rennen.', tip: '' },
+        { woord: 'fanatiek',             betekenis: 'Heel enthousiast en fel, graag willen winnen.', tip: '' },
+        { woord: 'geblesseerd',          betekenis: 'Gewond.', tip: '' },
+        { woord: 'de individuele sport', betekenis: 'Een sport die je in je eentje beoefent.', tip: '' },
+        { woord: 'de pass',              betekenis: 'Een trap of worp, waarmee je de bal naar een teamspeler overspeelt.', tip: '' },
+        { woord: 'de prof',              betekenis: 'Een professionele sporter. Je sport voor je beroep.', tip: '' },
+        { woord: 'de puck',              betekenis: 'De platte schijf bij ijshockey.', tip: '' },
+        { woord: 'schakelen',            betekenis: 'Van het ene naar het andere overgaan.', tip: '' },
+        { woord: 'sensationeel',         betekenis: 'Iets wat sensationeel is, veroorzaakt grote opwinding.', tip: '' },
+        { woord: 'serveren',             betekenis: 'Als eerste de bal in het spel brengen bij een sport met een net.', tip: '' },
+        { woord: 'sportief',             betekenis: 'Dat ben je als je veel aan sport doet of als je goed tegen je verlies kunt.', tip: '' },
+        { woord: 'het startblok',        betekenis: 'Een blok waar je tegenaan staat bij de start van een wedstrijd.', tip: '' },
+        { woord: 'de stick',             betekenis: 'Een soort staaf waarmee je tegen een bal slaat.', tip: '' },
+        { woord: 'tackelen',             betekenis: 'Iemand met opzet laten struikelen.', tip: '' },
+        { woord: 'de tactiek',           betekenis: 'De manier waarop je iets aanpakt om iets te bereiken.', tip: '' },
+        { woord: 'de techniek',          betekenis: 'De manier waarop je iets doet.', tip: '' },
+        { woord: 'de timing',            betekenis: 'Iets op het goede moment doen.', tip: '' },
+      ]
+    },
 };
